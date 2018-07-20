@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./",
+    "precommit": "npm run lint && npm test ",
+    "prepush": "npm test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.1.0"
+    "eslint": "^5.1.0",
+    "husky": "^0.14.3"
   }
 }
