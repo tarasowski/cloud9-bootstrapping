@@ -1,0 +1,63 @@
+{
+    "ace": {
+        "@tabSize": 2,
+        "@useSoftTabs": true
+    },
+    "format": {
+        "jsbeautify": {
+            "@braces": "end-expand",
+            "@formatOnSave": true,
+            "@jslinthappy": true,
+            "@keeparrayindentation": true
+        }
+    },
+    "general": {
+        "@stripws": true
+    },
+    "golang": {
+        "@completion": false,
+        "@formatOnSave": false
+    },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
+    "javascript": {
+        "@formatOnSave": true,
+        "@formatter": "",
+        "@use_jsbeautify": true
+    },
+    "language": {
+        "@semi": false,
+        "@undeclaredVars": true,
+        "@unusedFunctionArgs": true,
+        "@warnLevel": "error",
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": false
+                },
+                "ecma5": {
+                    "enabled": false
+                },
+                "jQuery": {
+                    "enabled": false
+                }
+            }
+        }
+    },
+    "php": {
+        "@completion": false
+    },
+    "python": {
+        "@completion": false
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {}
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}
