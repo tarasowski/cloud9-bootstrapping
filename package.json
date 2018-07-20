@@ -6,8 +6,8 @@
   "scripts": {
     "test": "node_modules/.bin/tape ./test/*.test.js",
     "lint": "eslint ./",
-    "precommit": "npm run lint && npm test ",
-    "prepush": "npm test"
+    "precommit": "npm run lint && npm test",
+    "prepush": "echo There should be additional layer of checks"
   },
   "keywords": [],
   "author": "",
