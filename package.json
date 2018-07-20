@@ -7,7 +7,7 @@
     "test": "tap test/*.test.js --cov",
     "lint": "eslint ./",
     "precommit": "npm run lint && npm test",
-    "prepush": "echo There should be additional layer of checks"
+    "prepush": "echo There should be additional layer of checks",
     "folder": "rm -rf build && mkdir build",
     "bucket": "aws s3api create-bucket --bucket <bucket-name> --region eu-west-1 --create-bucket-configuration LocationConstraint=eu-west-1",
     "package": "aws cloudformation package --template-file template.yaml --output-template-file build/output.yaml --s3-bucket <bucket-name>",
@@ -21,7 +21,7 @@
   "devDependencies": {
     "eslint": "^5.1.0",
     "husky": "^0.14.3",
-    "node-tap": "^1.0.0",
+    "tap": "^12.0.1",
     "proxyquire": "^2.0.1"
   }
 }
