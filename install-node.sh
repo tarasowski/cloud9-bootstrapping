@@ -1,7 +1,7 @@
 #!/bin/bash
 ## README
 # To run this script
-# => run `sudo bash cloud9-bootstrap.sh`
+# => run `sudo bash install-node.sh`
 # Install node 8.10
 nvm install 8.10
 # Set node 8.10 as default
