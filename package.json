@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/.bin/tape ./test/*.test.js",
-    "cov": "nyc node ./node_modules/.bin/tape ./test/*.test.js,
+    "cov": "nyc node ./node_modules/.bin/tape ./test/*.test.js",
     "lint": "eslint ./",
     "precommit": "npm run lint && npm test",
     "prepush": "echo There should be additional layer of checks",
