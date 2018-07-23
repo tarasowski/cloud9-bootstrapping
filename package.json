@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/.bin/tape ./test/*.test.js",
+    "cov": "nyc node ./node_modules/.bin/tape ./test/*.test.js,
     "lint": "eslint ./",
     "precommit": "npm run lint && npm test",
     "prepush": "echo There should be additional layer of checks",
@@ -22,6 +23,7 @@
     "eslint": "^5.1.0",
     "husky": "^0.14.3",
     "tape": "^4.9.1",
+    "nyc": "^12.0.2",
     "proxyquire": "^2.0.1"
   }
 }
