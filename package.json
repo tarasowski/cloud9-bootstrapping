@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.test.js --cov",
+    "test": "node ./node_modules/.bin/tape ./test/*.test.js",
     "lint": "eslint ./",
     "precommit": "npm run lint && npm test",
     "prepush": "echo There should be additional layer of checks",
@@ -21,7 +21,7 @@
   "devDependencies": {
     "eslint": "^5.1.0",
     "husky": "^0.14.3",
-    "tap": "^12.0.1",
+    "tape": "^4.9.1",
     "proxyquire": "^2.0.1"
   }
 }
